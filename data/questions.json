@@ -1,0 +1,538 @@
+{
+  "classes": [
+    {
+      "id": "lkg",
+      "name": "LKG",
+      "emoji": "🌟",
+      "color": "#FF6B9D",
+      "colorDark": "#e0527e",
+      "tasks": [
+        {
+          "id": 1,
+          "title": "ABC Letters",
+          "questions": [
+            { "q": "Which letter comes next?  A  B  __", "options": ["C","D","E","F"], "answer": "C" },
+            { "q": "Find the missing letter:  A  __  C  D", "options": ["B","E","F","G"], "answer": "B" },
+            { "q": "What is the first letter of  🍎 APPLE ?", "options": ["P","E","A","L"], "answer": "A" },
+            { "q": "Which letter comes after  D ?", "options": ["C","F","B","E"], "answer": "E" },
+            { "q": "Find the missing:  __  B  C", "options": ["D","E","Z","A"], "answer": "A" },
+            { "q": "What letter does  🐶 DOG  start with?", "options": ["O","G","B","D"], "answer": "D" },
+            { "q": "Which letter is missing?  A  B  C  __  E", "options": ["F","G","H","D"], "answer": "D" },
+            { "q": "What letter does  🐱 CAT  start with?", "options": ["A","T","B","C"], "answer": "C" },
+            { "q": "Which comes after  G ?   F  G  __", "options": ["I","E","J","H"], "answer": "H" },
+            { "q": "What letter does  🐘 ELEPHANT  start with?", "options": ["A","L","P","E"], "answer": "E" }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Missing Letters in Words",
+          "questions": [
+            { "q": "Complete the word:  A __ P L E  🍎", "options": ["B","C","D","P"], "answer": "P" },
+            { "q": "Complete the word:  C __ T  🐱", "options": ["O","E","I","A"], "answer": "A" },
+            { "q": "Complete the word:  D __ G  🐶", "options": ["A","E","I","O"], "answer": "O" },
+            { "q": "Complete the word:  B __ S  🚌", "options": ["A","O","E","U"], "answer": "U" },
+            { "q": "Complete the word:  S __ N  ☀️", "options": ["A","O","E","U"], "answer": "U" },
+            { "q": "Complete the word:  C __ P  ☕", "options": ["A","O","E","U"], "answer": "U" },
+            { "q": "Complete the word:  H __ T  🎩", "options": ["O","E","I","A"], "answer": "A" },
+            { "q": "Complete the word:  M __ P  🗺️", "options": ["O","E","I","A"], "answer": "A" },
+            { "q": "Complete the word:  J __ M  🍓", "options": ["O","E","I","A"], "answer": "A" },
+            { "q": "Complete the word:  B __ T  🦇", "options": ["O","E","I","A"], "answer": "A" }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Numbers Fun",
+          "questions": [
+            { "q": "How many 🍎🍎🍎 apples?", "options": ["2","4","1","3"], "answer": "3" },
+            { "q": "What number comes after  2 ?", "options": ["1","4","5","3"], "answer": "3" },
+            { "q": "How many fingers on one hand? ✋", "options": ["4","6","3","5"], "answer": "5" },
+            { "q": "1  +  1  = ?", "options": ["3","1","4","2"], "answer": "2" },
+            { "q": "Count the stars:  ⭐⭐⭐⭐", "options": ["3","5","2","4"], "answer": "4" },
+            { "q": "What number comes before  5 ?", "options": ["3","6","2","4"], "answer": "4" },
+            { "q": "2  +  1  = ?", "options": ["2","4","1","3"], "answer": "3" },
+            { "q": "How many 🌈🌈 rainbows?", "options": ["1","3","4","2"], "answer": "2" },
+            { "q": "Which number is biggest?   1,  3,  2", "options": ["1","2","0","3"], "answer": "3" },
+            { "q": "3  -  1  = ?", "options": ["3","1","4","2"], "answer": "2" }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Colors & Shapes",
+          "questions": [
+            { "q": "What color is the 🍌 Banana?", "options": ["Red","Blue","Green","Yellow"], "answer": "Yellow" },
+            { "q": "What color is the 🍅 Tomato?", "options": ["Blue","Green","Yellow","Red"], "answer": "Red" },
+            { "q": "What shape is a 🏀 Ball?", "options": ["Square","Triangle","Star","Circle"], "answer": "Circle" },
+            { "q": "What color is the sky? ☁️", "options": ["Red","Green","Pink","Blue"], "answer": "Blue" },
+            { "q": "What color is grass? 🌿", "options": ["Blue","Red","Yellow","Green"], "answer": "Green" },
+            { "q": "How many sides does a triangle have?", "options": ["4","5","2","3"], "answer": "3" },
+            { "q": "What color is snow? ❄️", "options": ["Blue","Grey","Yellow","White"], "answer": "White" },
+            { "q": "How many sides does a square have?", "options": ["3","5","6","4"], "answer": "4" },
+            { "q": "What color is the 🍊 Orange?", "options": ["Yellow","Red","Green","Orange"], "answer": "Orange" },
+            { "q": "What shape is a 🍕 Pizza slice?", "options": ["Circle","Square","Star","Triangle"], "answer": "Triangle" }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Animals & Objects",
+          "questions": [
+            { "q": "Which animal says  MOO ? 🐄", "options": ["Dog","Cat","Duck","Cow"], "answer": "Cow" },
+            { "q": "Which animal can fly? 🐦", "options": ["Fish","Cat","Dog","Bird"], "answer": "Bird" },
+            { "q": "What do we use to write? ✏️", "options": ["Spoon","Shoe","Ball","Pencil"], "answer": "Pencil" },
+            { "q": "Which animal lives in water? 🐟", "options": ["Cat","Cow","Hen","Fish"], "answer": "Fish" },
+            { "q": "What do we sit on? 🪑", "options": ["Table","Bed","Fan","Chair"], "answer": "Chair" },
+            { "q": "Which animal gives us milk? 🥛", "options": ["Dog","Cat","Elephant","Cow"], "answer": "Cow" },
+            { "q": "What do we use to cut? ✂️", "options": ["Pen","Book","Cup","Scissors"], "answer": "Scissors" },
+            { "q": "Which animal is the king of jungle? 🦁", "options": ["Tiger","Bear","Fox","Lion"], "answer": "Lion" },
+            { "q": "What do we read? 📚", "options": ["Chair","Plate","Shoe","Book"], "answer": "Book" },
+            { "q": "Which animal hops? 🐸", "options": ["Fish","Snake","Cow","Frog"], "answer": "Frog" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1st",
+      "name": "1st Standard",
+      "emoji": "🌈",
+      "color": "#FF9F43",
+      "colorDark": "#e0882a",
+      "tasks": [
+        {
+          "id": 1,
+          "title": "English Words",
+          "questions": [
+            { "q": "Which word means happy? 😊", "options": ["Sad","Angry","Tired","Glad"], "answer": "Glad" },
+            { "q": "Opposite of BIG is?", "options": ["Tall","Hard","Long","Small"], "answer": "Small" },
+            { "q": "Spell:  B __ __ K  (you read it)", "options": ["BARK","BEAK","BACK","BOOK"], "answer": "BOOK" },
+            { "q": "What is the plural of CAT?", "options": ["Cates","Catz","Kats","Cats"], "answer": "Cats" },
+            { "q": "Choose the correct spelling:", "options": ["Aple","Appel","Appl","Apple"], "answer": "Apple" },
+            { "q": "Opposite of DAY is?", "options": ["Morning","Evening","Noon","Night"], "answer": "Night" },
+            { "q": "Which is a fruit? 🍇", "options": ["Carrot","Potato","Onion","Grapes"], "answer": "Grapes" },
+            { "q": "What is the plural of DOG?", "options": ["Dogz","Doge","Doggs","Dogs"], "answer": "Dogs" },
+            { "q": "Opposite of HOT is?", "options": ["Warm","Cool","Mild","Cold"], "answer": "Cold" },
+            { "q": "Which word rhymes with CAT?", "options": ["Car","Cup","Box","Bat"], "answer": "Bat" }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Simple Math",
+          "questions": [
+            { "q": "2  +  3  = ?", "options": ["4","6","7","5"], "answer": "5" },
+            { "q": "5  -  2  = ?", "options": ["2","4","7","3"], "answer": "3" },
+            { "q": "4  +  4  = ?", "options": ["7","9","6","8"], "answer": "8" },
+            { "q": "10  -  5  = ?", "options": ["4","6","3","5"], "answer": "5" },
+            { "q": "3  +  4  = ?", "options": ["6","8","5","7"], "answer": "7" },
+            { "q": "6  -  3  = ?", "options": ["2","4","5","3"], "answer": "3" },
+            { "q": "5  +  5  = ?", "options": ["9","11","8","10"], "answer": "10" },
+            { "q": "9  -  4  = ?", "options": ["4","6","3","5"], "answer": "5" },
+            { "q": "2  +  7  = ?", "options": ["8","10","7","9"], "answer": "9" },
+            { "q": "8  -  3  = ?", "options": ["4","6","7","5"], "answer": "5" }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "General Knowledge",
+          "questions": [
+            { "q": "How many days in a week?", "options": ["6","5","8","7"], "answer": "7" },
+            { "q": "Which planet do we live on? 🌍", "options": ["Mars","Jupiter","Venus","Earth"], "answer": "Earth" },
+            { "q": "How many months in a year?", "options": ["10","11","13","12"], "answer": "12" },
+            { "q": "What is the color of the Sun? ☀️", "options": ["Red","Blue","Green","Yellow"], "answer": "Yellow" },
+            { "q": "Which is the tallest animal? 🦒", "options": ["Elephant","Horse","Camel","Giraffe"], "answer": "Giraffe" },
+            { "q": "How many wheels does a bicycle have?", "options": ["3","4","1","2"], "answer": "2" },
+            { "q": "What do plants need to grow? 🌱", "options": ["Stone","Plastic","Sand","Water"], "answer": "Water" },
+            { "q": "Which is the fastest animal? 🐆", "options": ["Lion","Horse","Dog","Cheetah"], "answer": "Cheetah" },
+            { "q": "What do we get from cows? 🥛", "options": ["Eggs","Honey","Wool","Milk"], "answer": "Milk" },
+            { "q": "Which season is the hottest? 🌞", "options": ["Winter","Spring","Autumn","Summer"], "answer": "Summer" }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Rhymes & Patterns",
+          "questions": [
+            { "q": "Which rhymes with SUN?", "options": ["Sin","Son","Set","Fun"], "answer": "Fun" },
+            { "q": "Which comes next?   1, 2, 3, __", "options": ["5","6","7","4"], "answer": "4" },
+            { "q": "Which rhymes with BALL?", "options": ["Bell","Bull","Bill","Call"], "answer": "Call" },
+            { "q": "Which comes next?   2, 4, 6, __", "options": ["7","9","10","8"], "answer": "8" },
+            { "q": "Which rhymes with TREE?", "options": ["Tray","Try","True","Free"], "answer": "Free" },
+            { "q": "Which comes next?   A, C, E, __", "options": ["F","H","I","G"], "answer": "G" },
+            { "q": "Which rhymes with NIGHT?", "options": ["Neat","Nice","Nine","Light"], "answer": "Light" },
+            { "q": "Which comes next?   5, 10, 15, __", "options": ["25","18","16","20"], "answer": "20" },
+            { "q": "Which rhymes with CAKE?", "options": ["Lack","Lace","Lane","Lake"], "answer": "Lake" },
+            { "q": "Which comes next?   10, 20, 30, __", "options": ["35","45","50","40"], "answer": "40" }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Sentences",
+          "questions": [
+            { "q": "Which is correct?", "options": ["Cat the is big.","Is the cat big.","Big cat the is.","The cat is big."], "answer": "The cat is big." },
+            { "q": "What does  'run'  mean?", "options": ["Sleep","Eat","Jump","Move fast"], "answer": "Move fast" },
+            { "q": "Which is a verb (action word)?", "options": ["Red","Happy","Apple","Jump"], "answer": "Jump" },
+            { "q": "Which word is an animal?", "options": ["Table","Chair","Mango","Horse"], "answer": "Horse" },
+            { "q": "Which is a colour word?", "options": ["Run","Eat","Jump","Pink"], "answer": "Pink" },
+            { "q": "Complete:  The dog ___ loud.", "options": ["flies","swims","hops","barks"], "answer": "barks" },
+            { "q": "Which word is a number?", "options": ["Happy","Blue","Fast","Seven"], "answer": "Seven" },
+            { "q": "Complete:  Birds can ___.", "options": ["swim","dig","bark","fly"], "answer": "fly" },
+            { "q": "Which is opposite of NIGHT?", "options": ["Dark","Sleep","Dusk","Day"], "answer": "Day" },
+            { "q": "Which word describes size?", "options": ["Run","Sing","Jump","Big"], "answer": "Big" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2nd",
+      "name": "2nd Standard",
+      "emoji": "🦋",
+      "color": "#26de81",
+      "colorDark": "#1ab368",
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Vocabulary",
+          "questions": [
+            { "q": "What is the meaning of 'enormous'?", "options": ["Very small","Very fast","Very slow","Very big"], "answer": "Very big" },
+            { "q": "Opposite of LIGHT is?", "options": ["Bright","Dim","Clear","Dark"], "answer": "Dark" },
+            { "q": "Which word means to look at?", "options": ["Hear","Smell","Taste","See"], "answer": "See" },
+            { "q": "What is a synonym of HAPPY?", "options": ["Sad","Angry","Bored","Joyful"], "answer": "Joyful" },
+            { "q": "Opposite of NEAR is?", "options": ["Close","Here","Side","Far"], "answer": "Far" },
+            { "q": "What does 'ancient' mean?", "options": ["Very new","Very big","Very tall","Very old"], "answer": "Very old" },
+            { "q": "Opposite of LOUD is?", "options": ["Noisy","Clear","Sharp","Quiet"], "answer": "Quiet" },
+            { "q": "What is a synonym of FAST?", "options": ["Slow","Heavy","Lazy","Quick"], "answer": "Quick" },
+            { "q": "Opposite of EMPTY is?", "options": ["Half","Open","Closed","Full"], "answer": "Full" },
+            { "q": "What does 'brave' mean?", "options": ["Afraid","Weak","Small","Courageous"], "answer": "Courageous" }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Math Addition & Subtraction",
+          "questions": [
+            { "q": "12  +  5  = ?", "options": ["16","18","15","17"], "answer": "17" },
+            { "q": "20  -  8  = ?", "options": ["11","13","10","12"], "answer": "12" },
+            { "q": "15  +  6  = ?", "options": ["20","22","19","21"], "answer": "21" },
+            { "q": "25  -  10  = ?", "options": ["14","16","13","15"], "answer": "15" },
+            { "q": "13  +  7  = ?", "options": ["19","21","18","20"], "answer": "20" },
+            { "q": "30  -  15  = ?", "options": ["14","16","20","15"], "answer": "15" },
+            { "q": "11  +  9  = ?", "options": ["19","21","18","20"], "answer": "20" },
+            { "q": "18  -  6  = ?", "options": ["11","13","14","12"], "answer": "12" },
+            { "q": "14  +  8  = ?", "options": ["21","23","20","22"], "answer": "22" },
+            { "q": "40  -  20  = ?", "options": ["18","22","25","20"], "answer": "20" }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Science Basics",
+          "questions": [
+            { "q": "What do plants use to make food? 🌱", "options": ["Rain","Wind","Soil","Sunlight"], "answer": "Sunlight" },
+            { "q": "Which is a liquid? 💧", "options": ["Ice","Stone","Wood","Water"], "answer": "Water" },
+            { "q": "How many legs does an insect have?", "options": ["4","8","2","6"], "answer": "6" },
+            { "q": "What do tadpoles turn into?", "options": ["Fish","Snakes","Birds","Frogs"], "answer": "Frogs" },
+            { "q": "Which is a source of light? 💡", "options": ["Moon","Stone","Plant","Sun"], "answer": "Sun" },
+            { "q": "What is the largest ocean?", "options": ["Atlantic","Indian","Arctic","Pacific"], "answer": "Pacific" },
+            { "q": "How many legs does a spider have?", "options": ["6","4","10","8"], "answer": "8" },
+            { "q": "Which animal is a mammal?", "options": ["Snake","Frog","Eagle","Whale"], "answer": "Whale" },
+            { "q": "What gas do plants release?", "options": ["Carbon dioxide","Nitrogen","Hydrogen","Oxygen"], "answer": "Oxygen" },
+            { "q": "What is the center of our solar system?", "options": ["Earth","Moon","Mars","Sun"], "answer": "Sun" }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Multiplication Intro",
+          "questions": [
+            { "q": "2  ×  2  = ?", "options": ["3","5","6","4"], "answer": "4" },
+            { "q": "3  ×  2  = ?", "options": ["5","7","8","6"], "answer": "6" },
+            { "q": "5  ×  1  = ?", "options": ["4","6","10","5"], "answer": "5" },
+            { "q": "4  ×  2  = ?", "options": ["6","10","7","8"], "answer": "8" },
+            { "q": "2  ×  5  = ?", "options": ["8","12","7","10"], "answer": "10" },
+            { "q": "3  ×  3  = ?", "options": ["6","12","8","9"], "answer": "9" },
+            { "q": "2  ×  6  = ?", "options": ["10","14","11","12"], "answer": "12" },
+            { "q": "4  ×  3  = ?", "options": ["8","15","10","12"], "answer": "12" },
+            { "q": "5  ×  2  = ?", "options": ["8","12","15","10"], "answer": "10" },
+            { "q": "1  ×  9  = ?", "options": ["1","10","8","9"], "answer": "9" }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Grammar Basics",
+          "questions": [
+            { "q": "Which is a noun (name of thing)?", "options": ["Run","Big","Quickly","Table"], "answer": "Table" },
+            { "q": "Which is a verb (action)?", "options": ["Blue","Book","Happy","Sing"], "answer": "Sing" },
+            { "q": "Fill:  She ___ to school every day.", "options": ["go","gone","going","goes"], "answer": "goes" },
+            { "q": "What is the plural of CHILD?", "options": ["Childs","Childes","Child","Children"], "answer": "Children" },
+            { "q": "Which is an adjective (describing word)?", "options": ["Jump","Mango","Run","Beautiful"], "answer": "Beautiful" },
+            { "q": "Fill:  The birds ___ in the sky.", "options": ["flies","flew","flying","fly"], "answer": "fly" },
+            { "q": "What is the plural of MOUSE?", "options": ["Mouses","Mouse","Mices","Mice"], "answer": "Mice" },
+            { "q": "Fill:  I ___ an apple.", "options": ["eats","ate","eating","eat"], "answer": "eat" },
+            { "q": "Which is a proper noun (person's name)?", "options": ["Ball","Run","Small","Ramu"], "answer": "Ramu" },
+            { "q": "Fill:  The sun ___ in the east.", "options": ["rise","risen","rose","rises"], "answer": "rises" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3rd",
+      "name": "3rd Standard",
+      "emoji": "🚀",
+      "color": "#4ECDC4",
+      "colorDark": "#35a8a0",
+      "tasks": [
+        {
+          "id": 1,
+          "title": "English Comprehension",
+          "questions": [
+            { "q": "What is a sentence that asks something called?", "options": ["Statement","Exclamation","Command","Question"], "answer": "Question" },
+            { "q": "What punctuation ends a question?", "options": [".","!",",","?"], "answer": "?" },
+            { "q": "What is the past tense of 'go'?", "options": ["Goed","Gone","Goes","Went"], "answer": "Went" },
+            { "q": "Which word is a conjunction?", "options": ["Big","Run","Apple","And"], "answer": "And" },
+            { "q": "What is the past tense of 'eat'?", "options": ["Eated","Eaten","Eats","Ate"], "answer": "Ate" },
+            { "q": "Which word is a preposition?", "options": ["Run","Big","Happy","Under"], "answer": "Under" },
+            { "q": "What does 'migrate' mean?", "options": ["Stay still","Fly high","Dig deep","Move to another place"], "answer": "Move to another place" },
+            { "q": "What is the past tense of 'write'?", "options": ["Writed","Written","Writes","Wrote"], "answer": "Wrote" },
+            { "q": "Identify the pronoun:  'She is my friend.'", "options": ["Is","My","Friend","She"], "answer": "She" },
+            { "q": "What is an antonym of 'brave'?", "options": ["Bold","Strong","Clever","Cowardly"], "answer": "Cowardly" }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Multiplication & Division",
+          "questions": [
+            { "q": "6  ×  7  = ?", "options": ["48","36","49","42"], "answer": "42" },
+            { "q": "20  ÷  4  = ?", "options": ["4","6","8","5"], "answer": "5" },
+            { "q": "8  ×  6  = ?", "options": ["42","56","54","48"], "answer": "48" },
+            { "q": "36  ÷  6  = ?", "options": ["7","5","8","6"], "answer": "6" },
+            { "q": "9  ×  4  = ?", "options": ["32","40","45","36"], "answer": "36" },
+            { "q": "45  ÷  9  = ?", "options": ["4","6","7","5"], "answer": "5" },
+            { "q": "7  ×  8  = ?", "options": ["48","63","54","56"], "answer": "56" },
+            { "q": "48  ÷  8  = ?", "options": ["5","7","8","6"], "answer": "6" },
+            { "q": "5  ×  9  = ?", "options": ["40","50","54","45"], "answer": "45" },
+            { "q": "63  ÷  7  = ?", "options": ["8","7","10","9"], "answer": "9" }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Science & Environment",
+          "questions": [
+            { "q": "What is the process of water turning to vapour called?", "options": ["Condensation","Freezing","Melting","Evaporation"], "answer": "Evaporation" },
+            { "q": "Which part of the plant makes food?", "options": ["Root","Stem","Flower","Leaf"], "answer": "Leaf" },
+            { "q": "What is the hardest natural substance?", "options": ["Gold","Iron","Stone","Diamond"], "answer": "Diamond" },
+            { "q": "Which organ pumps blood?", "options": ["Lungs","Brain","Liver","Heart"], "answer": "Heart" },
+            { "q": "What do we call animals that eat only plants?", "options": ["Carnivores","Omnivores","Insects","Herbivores"], "answer": "Herbivores" },
+            { "q": "Which layer protects Earth from harmful rays?", "options": ["Clouds","Atmosphere","Soil","Ozone layer"], "answer": "Ozone layer" },
+            { "q": "What is the full form of H₂O?", "options": ["Air","Oxygen","Hydrogen","Water"], "answer": "Water" },
+            { "q": "Which planet is the Red Planet?", "options": ["Venus","Jupiter","Saturn","Mars"], "answer": "Mars" },
+            { "q": "Animals that eat both plants and meat are?", "options": ["Herbivores","Carnivores","Parasites","Omnivores"], "answer": "Omnivores" },
+            { "q": "Which is the smallest planet in solar system?", "options": ["Mars","Pluto","Venus","Mercury"], "answer": "Mercury" }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Social Studies",
+          "questions": [
+            { "q": "What is the capital of India?", "options": ["Mumbai","Chennai","Kolkata","New Delhi"], "answer": "New Delhi" },
+            { "q": "How many states are in India?", "options": ["25","30","32","28"], "answer": "28" },
+            { "q": "What is the national bird of India? 🦚", "options": ["Parrot","Sparrow","Eagle","Peacock"], "answer": "Peacock" },
+            { "q": "What is the national animal of India? 🐯", "options": ["Lion","Elephant","Deer","Tiger"], "answer": "Tiger" },
+            { "q": "What is the national flower of India?", "options": ["Rose","Jasmine","Sunflower","Lotus"], "answer": "Lotus" },
+            { "q": "Which river is the longest in India?", "options": ["Yamuna","Godavari","Brahmaputra","Ganga"], "answer": "Ganga" },
+            { "q": "Independence Day of India is on?", "options": ["26 January","2 October","14 November","15 August"], "answer": "15 August" },
+            { "q": "Who is the father of the Nation?", "options": ["Nehru","Bose","Tilak","Mahatma Gandhi"], "answer": "Mahatma Gandhi" },
+            { "q": "What is the national fruit of India? 🥭", "options": ["Banana","Apple","Orange","Mango"], "answer": "Mango" },
+            { "q": "Republic Day of India is celebrated on?", "options": ["15 August","2 October","1 May","26 January"], "answer": "26 January" }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Logic & Reasoning",
+          "questions": [
+            { "q": "If today is Monday, what day is tomorrow?", "options": ["Sunday","Wednesday","Saturday","Tuesday"], "answer": "Tuesday" },
+            { "q": "Complete the pattern:  2, 4, 8, 16, __", "options": ["24","20","28","32"], "answer": "32" },
+            { "q": "A has 10 sweets, gives 3 to B. How many left?", "options": ["8","6","13","7"], "answer": "7" },
+            { "q": "What comes next?  Circle, Square, Circle, __", "options": ["Triangle","Circle","Star","Square"], "answer": "Square" },
+            { "q": "5 birds on a tree, 2 fly away. How many left?", "options": ["2","4","7","3"], "answer": "3" },
+            { "q": "Complete:  Monday, Tuesday, Wednesday, __", "options": ["Friday","Saturday","Sunday","Thursday"], "answer": "Thursday" },
+            { "q": "I have 6 chocolates, I eat 2. How many remain?", "options": ["3","5","8","4"], "answer": "4" },
+            { "q": "What is half of 20?", "options": ["8","12","15","10"], "answer": "10" },
+            { "q": "If a dozen = 12, half dozen = ?", "options": ["4","8","10","6"], "answer": "6" },
+            { "q": "The month after April is?", "options": ["June","March","July","May"], "answer": "May" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4th",
+      "name": "4th Standard",
+      "emoji": "⚡",
+      "color": "#a29bfe",
+      "colorDark": "#7c6fe0",
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Advanced English",
+          "questions": [
+            { "q": "What is a metaphor?", "options": ["Comparing with 'like'","A type of noun","A question","Comparing without 'like/as'"], "answer": "Comparing without 'like/as'" },
+            { "q": "What is the plural of 'ox'?", "options": ["Oxes","Ox","Oxs","Oxen"], "answer": "Oxen" },
+            { "q": "What is the superlative of 'good'?", "options": ["Better","Goodest","Most good","Best"], "answer": "Best" },
+            { "q": "Choose the correct:  She is ___ than me.", "options": ["more tall","tallest","tall","taller"], "answer": "taller" },
+            { "q": "What is a homophone of 'sea'?", "options": ["She","Say","Saw","See"], "answer": "See" },
+            { "q": "What is the superlative of 'bad'?", "options": ["Worse","Baddest","Most bad","Worst"], "answer": "Worst" },
+            { "q": "Identify the adverb:  'She ran quickly.'", "options": ["She","Ran","The","Quickly"], "answer": "Quickly" },
+            { "q": "What is the antonym of 'victory'?", "options": ["Win","Success","Glory","Defeat"], "answer": "Defeat" },
+            { "q": "A word that imitates a sound is called?", "options": ["Simile","Metaphor","Alliteration","Onomatopoeia"], "answer": "Onomatopoeia" },
+            { "q": "What is the comparative of 'hot'?", "options": ["More hot","Hottest","Hot","Hotter"], "answer": "Hotter" }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Fractions & Decimals",
+          "questions": [
+            { "q": "What is ½ of 24?", "options": ["10","14","8","12"], "answer": "12" },
+            { "q": "0.5 is same as?", "options": ["¼","¾","1/3","½"], "answer": "½" },
+            { "q": "What is ¼ of 40?", "options": ["8","12","15","10"], "answer": "10" },
+            { "q": "0.25 is same as?", "options": ["½","¾","1/5","¼"], "answer": "¼" },
+            { "q": "What is ⅓ of 30?", "options": ["9","12","15","10"], "answer": "10" },
+            { "q": "1.5 is same as?", "options": ["1¼","½","2½","1½"], "answer": "1½" },
+            { "q": "What is ¾ of 100?", "options": ["50","25","80","75"], "answer": "75" },
+            { "q": "0.75 is same as?", "options": ["½","¼","1/3","¾"], "answer": "¾" },
+            { "q": "Which is greater:  0.6  or  0.4 ?", "options": ["0.4","Equal","Can't say","0.6"], "answer": "0.6" },
+            { "q": "What is ⅔ of 60?", "options": ["30","45","20","40"], "answer": "40" }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Science (Forces & Matter)",
+          "questions": [
+            { "q": "What force pulls things down?", "options": ["Friction","Magnetism","Wind","Gravity"], "answer": "Gravity" },
+            { "q": "What are the three states of matter?", "options": ["Ice, Water, Steam","Rock, Water, Air","Earth, Fire, Water","Solid, Liquid, Gas"], "answer": "Solid, Liquid, Gas" },
+            { "q": "What does a magnet attract?", "options": ["Wood","Plastic","Glass","Iron"], "answer": "Iron" },
+            { "q": "Which state of matter has no fixed shape?", "options": ["Solid","Liquid","All of them","Gas"], "answer": "Gas" },
+            { "q": "What is the process of ice melting called?", "options": ["Evaporation","Condensation","Freezing","Melting"], "answer": "Melting" },
+            { "q": "Which force opposes motion?", "options": ["Gravity","Magnetism","Tension","Friction"], "answer": "Friction" },
+            { "q": "Sound travels fastest through?", "options": ["Liquid","Gas","Vacuum","Solid"], "answer": "Solid" },
+            { "q": "What is the boiling point of water?", "options": ["0°C","50°C","37°C","100°C"], "answer": "100°C" },
+            { "q": "What is the freezing point of water?", "options": ["100°C","-10°C","4°C","0°C"], "answer": "0°C" },
+            { "q": "Which gas do we breathe in?", "options": ["Carbon dioxide","Nitrogen","Hydrogen","Oxygen"], "answer": "Oxygen" }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "History & Geography",
+          "questions": [
+            { "q": "Which is the largest continent?", "options": ["Africa","Europe","America","Asia"], "answer": "Asia" },
+            { "q": "Which is the smallest continent?", "options": ["Europe","Antarctica","Africa","Australia"], "answer": "Australia" },
+            { "q": "How many continents are there?", "options": ["5","6","8","7"], "answer": "7" },
+            { "q": "Which is the longest river in the world?", "options": ["Amazon","Ganga","Yangtze","Nile"], "answer": "Nile" },
+            { "q": "Which is the largest ocean?", "options": ["Atlantic","Indian","Arctic","Pacific"], "answer": "Pacific" },
+            { "q": "Who built the Taj Mahal?", "options": ["Akbar","Humayun","Aurangzeb","Shah Jahan"], "answer": "Shah Jahan" },
+            { "q": "Where is the Eiffel Tower?", "options": ["London","Rome","Berlin","Paris"], "answer": "Paris" },
+            { "q": "Which is the highest mountain?", "options": ["K2","Kanchenjunga","Lhotse","Mount Everest"], "answer": "Mount Everest" },
+            { "q": "Which country is known as Land of Rising Sun?", "options": ["China","Korea","India","Japan"], "answer": "Japan" },
+            { "q": "What is the capital of France?", "options": ["London","Berlin","Rome","Paris"], "answer": "Paris" }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Math Word Problems",
+          "questions": [
+            { "q": "A book costs ₹25. Buy 4 books. Total cost?", "options": ["₹80","₹120","₹90","₹100"], "answer": "₹100" },
+            { "q": "Train at 9AM reaches in 3hrs. Arrives at?", "options": ["11 AM","1 PM","2 PM","12 PM"], "answer": "12 PM" },
+            { "q": "Rectangle 8cm long, 5cm wide. Area?", "options": ["26 sq cm","13 sq cm","35 sq cm","40 sq cm"], "answer": "40 sq cm" },
+            { "q": "72 students in 8 equal groups. Each group has?", "options": ["8","10","7","9"], "answer": "9" },
+            { "q": "Riya has ₹50, spends ₹23. How much left?", "options": ["₹33","₹23","₹17","₹27"], "answer": "₹27" },
+            { "q": "3 bags, each with 15 books. Total books?", "options": ["30","40","50","45"], "answer": "45" },
+            { "q": "Square has side 6cm. Perimeter?", "options": ["12 cm","36 cm","18 cm","24 cm"], "answer": "24 cm" },
+            { "q": "180 mangoes in 9 baskets (equal). Each basket?", "options": ["18","25","15","20"], "answer": "20" },
+            { "q": "Movie starts 4PM, 2.5hrs long. Ends at?", "options": ["6 PM","7 PM","5:30 PM","6:30 PM"], "answer": "6:30 PM" },
+            { "q": "Ran 5km Mon, 7km Wed, 3km Fri. Total?", "options": ["12 km","10 km","17 km","15 km"], "answer": "15 km" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5th",
+      "name": "5th Standard",
+      "emoji": "🏆",
+      "color": "#fd79a8",
+      "colorDark": "#d95d8b",
+      "tasks": [
+        {
+          "id": 1,
+          "title": "English Literature",
+          "questions": [
+            { "q": "What is a simile?", "options": ["Comparing without 'like'","A type of verb","A noun phrase","Comparing using 'like' or 'as'"], "answer": "Comparing using 'like' or 'as'" },
+            { "q": "What literary device is:  'The wind whispered' ?", "options": ["Simile","Metaphor","Alliteration","Personification"], "answer": "Personification" },
+            { "q": "What is alliteration?", "options": ["Same ending sound","Rhyming words","Opposite words","Same starting sound"], "answer": "Same starting sound" },
+            { "q": "What is the moral of a story called?", "options": ["Plot","Setting","Character","Theme"], "answer": "Theme" },
+            { "q": "Which is an example of alliteration?", "options": ["The big red ball","She runs fast","A tall tree","Peter Piper picked"], "answer": "Peter Piper picked" },
+            { "q": "What tense is:  'She will sing tomorrow' ?", "options": ["Present","Past","Perfect","Future"], "answer": "Future" },
+            { "q": "What is a haiku?", "options": ["4 line poem","Rhyming poem","Long poem","5-7-5 syllable poem"], "answer": "5-7-5 syllable poem" },
+            { "q": "What is a protagonist?", "options": ["Villain","Setting","Plot twist","Main character"], "answer": "Main character" },
+            { "q": "What is an idiom?", "options": ["A type of verb","A compound word","A rhyme","Phrase with different literal meaning"], "answer": "Phrase with different literal meaning" },
+            { "q": "What does 'raining cats and dogs' mean?", "options": ["Animals falling","Bad weather","Loud thunder","Raining very heavily"], "answer": "Raining very heavily" }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "LCM, HCF & Percentages",
+          "questions": [
+            { "q": "What is the LCM of 4 and 6?", "options": ["8","24","6","12"], "answer": "12" },
+            { "q": "What is 50% of 80?", "options": ["30","50","60","40"], "answer": "40" },
+            { "q": "What is the HCF of 12 and 18?", "options": ["3","9","12","6"], "answer": "6" },
+            { "q": "What is 25% of 200?", "options": ["25","75","100","50"], "answer": "50" },
+            { "q": "What is the LCM of 5 and 7?", "options": ["25","14","12","35"], "answer": "35" },
+            { "q": "What is 10% of 500?", "options": ["100","25","75","50"], "answer": "50" },
+            { "q": "What is the HCF of 16 and 24?", "options": ["4","6","12","8"], "answer": "8" },
+            { "q": "What is 75% of 100?", "options": ["50","25","80","75"], "answer": "75" },
+            { "q": "What is the LCM of 3, 4 and 6?", "options": ["24","6","18","12"], "answer": "12" },
+            { "q": "What is 20% of 150?", "options": ["25","40","50","30"], "answer": "30" }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Advanced Science",
+          "questions": [
+            { "q": "What is the speed of light?", "options": ["3×10⁶ m/s","3×10⁴ m/s","3×10¹⁰ m/s","3×10⁸ m/s"], "answer": "3×10⁸ m/s" },
+            { "q": "What is photosynthesis?", "options": ["Breathing process","Digestion","Blood circulation","Making food using sunlight"], "answer": "Making food using sunlight" },
+            { "q": "What is the chemical symbol for gold?", "options": ["Go","Ag","Gd","Au"], "answer": "Au" },
+            { "q": "How many bones in human body?", "options": ["204","208","200","206"], "answer": "206" },
+            { "q": "What is the chemical formula of water?", "options": ["HO₂","H₂O₂","OH","H₂O"], "answer": "H₂O" },
+            { "q": "Which planet has rings?", "options": ["Jupiter","Uranus","Neptune","Saturn"], "answer": "Saturn" },
+            { "q": "What is the powerhouse of the cell?", "options": ["Nucleus","Chloroplast","Ribosome","Mitochondria"], "answer": "Mitochondria" },
+            { "q": "Newton's first law is also called?", "options": ["Law of Action","Law of Motion","Law of Gravity","Law of Inertia"], "answer": "Law of Inertia" },
+            { "q": "What is an ecosystem?", "options": ["A type of plant","A weather pattern","A food chain","Organisms and environment together"], "answer": "Organisms and environment together" },
+            { "q": "Which vitamin comes from sunlight?", "options": ["Vitamin C","Vitamin A","Vitamin B","Vitamin D"], "answer": "Vitamin D" }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Social Science",
+          "questions": [
+            { "q": "The study of maps is called?", "options": ["Geography","Geology","Astronomy","Cartography"], "answer": "Cartography" },
+            { "q": "What is democracy?", "options": ["Rule by one king","Rule by army","Rule by priests","Government by the people"], "answer": "Government by the people" },
+            { "q": "Who wrote the Indian Constitution?", "options": ["Mahatma Gandhi","Nehru","Rajendra Prasad","Dr. B.R. Ambedkar"], "answer": "Dr. B.R. Ambedkar" },
+            { "q": "The first Prime Minister of India?", "options": ["Sardar Patel","Rajendra Prasad","Lal Bahadur Shastri","Jawaharlal Nehru"], "answer": "Jawaharlal Nehru" },
+            { "q": "What is the Tropic of Cancer?", "options": ["Latitude 23.5°S","Longitude 23.5°E","Equator","Latitude 23.5°N"], "answer": "Latitude 23.5°N" },
+            { "q": "What is the equator?", "options": ["0° longitude","90° latitude","180° longitude","0° latitude"], "answer": "0° latitude" },
+            { "q": "Where is the Great Wall?", "options": ["India","Japan","Korea","China"], "answer": "China" },
+            { "q": "What is the UN?", "options": ["United Network","Universal Nations","Union Nations","United Nations"], "answer": "United Nations" },
+            { "q": "Who was the first person on the Moon?", "options": ["Buzz Aldrin","Yuri Gagarin","John Glenn","Neil Armstrong"], "answer": "Neil Armstrong" },
+            { "q": "What are fossils?", "options": ["Rocks with minerals","Underground water","Ancient maps","Preserved remains of ancient life"], "answer": "Preserved remains of ancient life" }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Logical & Analytical Thinking",
+          "questions": [
+            { "q": "Complete:  1, 4, 9, 16, __", "options": ["20","24","36","25"], "answer": "25" },
+            { "q": "If 5 toys cost ₹75, how much do 8 toys cost?", "options": ["₹100","₹130","₹110","₹120"], "answer": "₹120" },
+            { "q": "What is the next prime number after 7?", "options": ["9","10","13","11"], "answer": "11" },
+            { "q": "Fish : Water  ::  Bird : ?", "options": ["Tree","Sky","Nest","Air"], "answer": "Air" },
+            { "q": "The average of 10, 20, 30 is?", "options": ["15","25","60","20"], "answer": "20" },
+            { "q": "How many seconds in an hour?", "options": ["360","600","1800","3600"], "answer": "3600" },
+            { "q": "Complete:  J, F, M, A, M, __  (Months)", "options": ["A","S","O","J"], "answer": "J" },
+            { "q": "Train travels 60km/h for 2.5hrs. Distance?", "options": ["120 km","180 km","100 km","150 km"], "answer": "150 km" },
+            { "q": "A clock shows 3:00. Angle between hands?", "options": ["180°","60°","120°","90°"], "answer": "90°" },
+            { "q": "Complete:  2, 3, 5, 7, 11, __  (Primes)", "options": ["12","14","15","13"], "answer": "13" }
+          ]
+        }
+      ]
+    }
+  ]
+}
